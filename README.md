@@ -19,3 +19,10 @@ Seu sistema recebe uma chamada para encurtar a url backendbrasil.com.br e retorn
 
 Exemplo ao redirecionar
 Ao receber uma chamada para http://localhost:8081/abc123ab você irá retorna um redirecionamento para a url salva no banco (backendbrasil.com.br), caso não seja encontrada, retornar HTTP 404
+
+Evolução 2:
+
+Além de receber uma URL, iremos utilizar IA para sugerir links cujo conteúdo seja parecido com o do link a ser encurtado.
+
+Por exemplo, caso o link seja: https://ge.globo.com/
+Retornar como sugestão links com sites de esporte, como por exemplo: https://www.espn.com.br/
